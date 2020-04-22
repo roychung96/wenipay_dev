@@ -1,0 +1,26 @@
+/* Add here all your CSS customizations */
+html .slide-overlay.slide-overlay-gradient .slotholder:after {
+	background-color: #6C6FF1 !important;
+	background-image: linear-gradient(to right, #6C6FF1 0%, #E2498D 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6C6FF1', endColorstr='#E2498D', GradientType=1);
+}
+
+
+.process .process-step-circle {
+	border-color: #ac44f6;
+}
+
+.process .process-step:hover .process-step-circle {
+	background-color: #ac44f6 !important;
+}
+
+.process .process-step:hover .process-step-circle .process-step-circle-content {
+	color: #FFF !important;
+}
+
+.process-connecting-line .connecting-line {
+	background: #ac44f6 !important;
+}
+html .text-weni {
+	color: #ac44f6 !important;
+}
